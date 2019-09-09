@@ -15,5 +15,9 @@ public class ServletTemp extends HttpServlet {
             String s = headersNames.nextElement();
             System.out.println(s + " = " + req.getHeader(s));
         }
+
+//        resp.setStatus(HttpServletResponse.SC_OK);
+//        resp.sendRedirect("/hello");
+        resp.sendError(HttpServletResponse.SC_BAD_REQUEST, "O no !!!!!!!!!!!!!");
     }
 }
