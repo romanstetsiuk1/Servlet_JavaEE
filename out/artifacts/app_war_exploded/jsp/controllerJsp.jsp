@@ -14,6 +14,11 @@
 
 ${student1.name}
 ${student1["age"]}
+<br>
+${list[1]}
+<br>
+${map["two"]}
+${map.one}
 
 </body>
 </html>
